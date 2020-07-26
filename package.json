@@ -1,0 +1,41 @@
+{
+  "name": "dark-mode-provider",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Dark mode provider React Component",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib --extensions '.ts,.tsx'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "parcel ./example/index.html"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "dark",
+    "mode",
+    "provider",
+    "react"
+  ],
+  "peerDependencies": {
+    "@types/react": ">=16.8.0",
+    "react": ">=16.8.0"
+  },
+  "author": "adrian_c4@hotmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/react": "^16.8.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "typescript": "^3.9.7"
+  }
+}
